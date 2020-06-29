@@ -386,13 +386,12 @@ p {
   align-self: center;
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--primary-text-color);
 }
 
-.icon-social-link:hover,
-.icon-social-link:focus {
+.social-link:hover .icon-social-link,
+.social-link:focus .icon-social-link {
   fill: var(--primary-white-color);
-  cursor: pointer;
 }
 
 .social-link.linkedin {
